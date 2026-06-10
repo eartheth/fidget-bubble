@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fidget Bubble</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a4a);
+    color: white;
+}
+
+/* Sections */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    padding-top: 100px;
+}
+
+.logo {
+    width: 180px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Button */
+.download-btn {
+    margin-top: 25px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #6a5cff, #00c2ff);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+}
+
+/* Features grid */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+/* Divider */
+.divider {
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+    margin: 40px auto;
+    width: 80%;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="section hero">
+    <img src="logo.png" class="logo">
+    <h1>Fidget Bubble</h1>
+    <p>
+        A floating desktop fidget spinner with built-in mini games.
+        Stay focused, relax your mind, and have fun — all in one.
+    </p>
+
+    <button class="download-btn"
+        onclick="window.location.href='YOUR_DOWNLOAD_LINK_HERE'">
+        Download for Windows
+    </button>
+</div>
+
+<div class="divider"></div>
+
+<!-- WHAT IT IS -->
+<div class="section">
+    <h1>What is Fidget Bubble?</h1>
+    <p>
+        Fidget Bubble is a small floating tool that stays on your screen,
+        letting you spin, relax, and play quick mini-games without interrupting your work.
+    </p>
+</div>
+
+<div class="divider"></div>
+
+<!-- HOW IT HELPS -->
+<div class="section">
+    <h1>How it helps you</h1>
+
+    <div class="features">
+        <div class="card">
+            <h3>🧠 Improve Focus</h3>
+            <p>Keep your hands busy while your mind stays sharp.</p>
+        </div>
+
+        <div class="card">
+            <h3>😌 Reduce Stress</h3>
+            <p>Simple spinning and popping bubbles helps calm your mind.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎮 Quick Breaks</h3>
+            <p>Play mini-games without leaving your workflow.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Always There</h3>
+            <p>Floating overlay means it’s ready anytime you need it.</p>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FEATURES -->
+<div class="section">
+    <h1>Features</h1>
+
+    <div class="features">
+        <div class="card">
+            <h3>🌀 Interactive Spinner</h3>
+            <p>Spin it anytime for instant satisfaction.</p>
+        </div>
+
+        <div class="card">
+            <h3>🖱️ Draggable</h3>
+            <p>Move it anywhere on your screen.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Bubble Pop Game</h3>
+            <p>Click bubbles and relax your brain.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Lightweight</h3>
+            <p>Runs smoothly without slowing your PC.</p>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FINAL CTA -->
+<div class="section">
+    <h1>Ready to relax?</h1>
+
+    <button class="download-btn"
+        onclick="window.location.href='YOUR_DOWNLOAD_LINK_HERE'">
+        Download Fidget Bubble
+    </button>
+</div>
+
+</body>
+</html>
